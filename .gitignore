@@ -1,0 +1,13 @@
+.idea
+node_modules
+.DS_Store
+
+*.iml
+*.js.map
+*.js
+
+db_config.json
+chapter-3/server/public/
+
+!karma.conf.js
+!protractor.conf.js

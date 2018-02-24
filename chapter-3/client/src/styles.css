@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* purecss */
+@import '../node_modules/purecss/build/pure-min.css';
+@import '../node_modules/purecss/build/grids-responsive-min.css';
+
+/* font-awesome */
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+/* toastr */
+@import '../node_modules/toastr/build/toastr.min.css';
+
+body {
+  background-color: #ececec;
+}
+
+.spinner-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.spinner-container {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  background: #fff;
+  padding-top: 20px;
+  position: fixed;
+  top: calc(50vh - 50px);
+  text-align: center;
+  color: #888;
+  left: calc(50vw - 100px);
+}
+
+/* ボタン */
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+  background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+  background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+  background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+  background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.button-xsmall {
+  font-size: 70%;
+}
+
+.button-small {
+  font-size: 85%;
+}
+
+.button-large {
+  font-size: 110%;
+}
+
+.button-xlarge {
+  font-size: 125%;
+}

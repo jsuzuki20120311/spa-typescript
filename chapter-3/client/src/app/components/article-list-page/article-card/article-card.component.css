@@ -1,0 +1,37 @@
+.panel {
+  background-color: #fff;
+  box-shadow:0 0 0 0 #caccca,0 3px 5px 0 #919191;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px;
+}
+
+.date-section {
+  font-size: 12px;
+  text-align: right;
+}
+
+.article-title {
+  font-size: 16px;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.article-title-link {
+  color: #888;
+  text-decoration: none;
+}
+
+.article-body {
+  font-size: 12px;
+  margin: 5px 0 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+

@@ -1,0 +1,4 @@
+.article__body {
+  height: calc(100% - 190px);
+  white-space: pre-wrap;
+}

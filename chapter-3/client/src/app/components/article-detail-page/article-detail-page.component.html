@@ -1,0 +1,8 @@
+<p>
+  <a [routerLink]="['/']">もどる</a>
+</p>
+
+<article *ngIf="article" class="">
+  <h2>{{ article.title }}</h2>
+  <p class="article__body">{{ article.body }}</p>
+</article>

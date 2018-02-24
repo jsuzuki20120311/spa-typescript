@@ -1,0 +1,16 @@
+<header class="header">
+  <h1 class="title"><a class="link" href="/">Sample App</a></h1>
+  <a class="pure-button pure-button-primary button-xsmall" [routerLink]="['/create-article']">
+    <i class="fa fa-file-o" aria-hidden="true"></i> 新規作成
+  </a>
+</header>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="spinner-background" *ngIf="showLoading"></div>
+<div class="spinner-container" *ngIf="showLoading">
+  <i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>
+  <p>Loading...</p>
+</div>

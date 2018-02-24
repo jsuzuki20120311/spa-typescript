@@ -1,0 +1,22 @@
+<div class="panel">
+
+  <section class="date-section">
+    <span class="article-created-at">作成日：{{ formattedCreatedAt }}</span><br>
+    <span class="artilce-updated-at">更新日：{{ formattedUpdatedAt }}</span>
+  </section>
+
+  <h2 class="article-title">
+    <a class="article-title-link" [routerLink]="['/article-detail', article.id]">{{ article.title }}</a>
+  </h2>
+
+  <section class="article-body">本文：{{ article.body }}</section>
+
+  <section>
+    <a class="pure-button button-secondary" [routerLink]="['/update-article', article.id]">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+    </a>
+    <button class="pure-button button-error" (click)="deleteButtonClicked(article.id)">
+      <i class="fa fa-trash-o" aria-hidden="true"></i>
+    </button>
+  </section>
+</div>

@@ -1,0 +1,22 @@
+<a [routerLink]="['/']">もどる</a>
+
+<div class="complete-mesage" *ngIf="isCompleted">
+  <div>記事の登録が完了しました。</div>
+  <p><a [routerLink]="['/']">一覧にもどる</a></p>
+</div>
+
+<div class="pure-form pure-form-aligned" *ngIf="!isCompleted">
+  <h2>記事の作成</h2>
+  <div class="pure-control-group">
+    <label>タイトル</label>
+    <input type="text" class="article__title" placeholder="タイトル"
+        value="{{ article.title }}" (change)="titleChanged($event)">
+  </div>
+  <div class="pure-control-group">
+    <label>本文</label>
+    <textarea class="article__body" placeholder="本文" (change)="bodyChanged($event)">{{ article.body }}</textarea>
+  </div>
+  <div class="pure-controls">
+    <button class="pure-button pure-button-primary" (click)="registerButtonClicked()">登録</button>
+  </div>
+</div>
