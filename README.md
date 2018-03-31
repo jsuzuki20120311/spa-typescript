@@ -89,7 +89,7 @@ $ npm run build
 #### 3.5 サーバーサイドの起動
 
 ```
-$ cd [クローンしたディレクトリ]/chapter-4/server
+$ cd [クローンしたディレクトリ]/chapter-3/server
 
 $ npm start
 
