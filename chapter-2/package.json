@@ -1,11 +1,9 @@
 {
   "name": "chapter-2",
   "version": "1.0.0",
-  "scripts": {
-  },
+  "scripts": {},
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "~2.4.2"
   }
